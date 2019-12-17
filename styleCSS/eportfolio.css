@@ -1,0 +1,159 @@
+@media screen and (min-width:1101px){
+    @font-face {
+    font-family: nasa;
+    src: url("../fonts/nasalization-rg.ttf");
+    }
+    body{
+        background-image: url("../images/ubuntu-background.png");
+        color:floralwhite;
+        margin:0;
+    }
+    header{
+        text-align: center;
+        font-family: nasa;
+    }
+    header h1{
+        font-size: 48px;
+        padding-top: 1em;
+    }
+    header h2{
+        font-size: 26px;
+    }
+    footer{
+        text-align: center;
+        position:absolute;
+        left:0;
+        right:0;
+        bottom:0;
+    }
+    #icon_head{
+        padding-left:5em;
+        width:68px;
+        height:68px;
+        float:left;
+    }
+    nav{
+        padding-top: 4em;
+        padding-left: 3.5em;
+        font-size: 30px;
+        position:absolute;
+        text-align: center;
+    }
+    nav li{
+        margin-top: 0.7em;
+        list-style:none;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    a:hover{
+        text-decoration: none;
+        color:white;
+        font-size:50px;
+        text-shadow: 4px 2px 6px floralwhite;
+    }
+    #content{
+        padding-left: 35em;
+        padding-top: 9em;
+    }
+
+    p.parcours{
+        font-size: 20;
+        max-width: 40em;
+        margin-right:1em;
+    }
+    ul.diplome{
+        list-style: none;
+        font-size: 25;
+    }
+    .diplome li{
+        margin-top: 0.8em;
+        margin-right: 1em;
+    }
+    #titre1{
+        font-size:25;
+    }
+    #current a{
+        color:#F56D02;
+        text-shadow: 4px 2px 6px #F56D02;
+        transition-duration: 0.5s;
+    }
+    table.langage{
+        padding-left: 45em;
+        padding-top: 6em;
+    }
+    .langage td{
+        padding-top: 3em;
+        padding-left: 3em;
+        text-align: center;
+
+    }
+    #lng{
+        font-weight: bold;
+        font-size:20px;
+    }
+    .competence{
+        width: 500px;
+    }
+    .competence h3{
+        text-transform: uppercase;
+        text-decoration:underline;
+    }
+    h3#header{
+      margin-bottom:3em;
+    }
+    ul, ol{
+      list-style-type: none;
+    }
+    h4{
+        text-align:left;
+    }
+    .skill{
+        margin-top:1em;
+    }
+    .progress{
+        margin-top:0.5em;
+        border-radius: 7px;
+    }
+    .progress-bar{
+        background-color: #F56D02;
+    }
+    span.skill-level{
+       float:right;
+    }
+    .english{
+        animation: english 2s;
+    }
+    .spanish{
+        animation: spanish 2s;
+    }
+    .portuguese{
+        animation: portuguese 2s;
+    }
+    @keyframes english{
+        0%{
+            width:0%;
+        }
+        100%{
+            width:60%
+        }
+    }
+    @keyframes spanish{
+        0%{
+            width:0%;
+        }
+        100%{
+            width:60%
+        }
+    }
+    @keyframes portuguese{
+        0%{
+            width:0%;
+        }
+        100%{
+            width:80%
+        }
+    }
+
+}

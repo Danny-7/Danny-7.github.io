@@ -1,0 +1,185 @@
+/* Largeur du display < 1100px */
+@media screen and (max-width: 1100px) {
+
+
+    @font-face{
+        font-family: nasa;
+        src: url("../fonts/nasalization-rg.ttf");
+    }
+    body{
+        background-image: url("../images/ubuntu-background.png");
+        color:floralwhite;
+    }
+    header{
+        text-align: center;
+        font-family: nasa;
+    }
+    header h1{
+        font-size: 48px;
+        padding-top: 1em;
+    }
+    header h2{
+        font-size: 26px;
+    }
+    footer{
+        text-align: center;
+        /* Permet un responsive design au footer */
+        left:0;
+        right:0;
+        bottom:0;
+    }
+    #icon_head{
+        padding-left:5em;
+        width:48px;
+        height:48px;
+        float:left;
+    }
+	nav{
+        padding-top: 3em;
+        padding-left: 1em;
+        font-size: 15px;
+        position:absolute;
+        text-align: center;
+    }
+    nav li{
+        margin-top: 0.1em;
+        list-style:none;
+    }
+    nav li:hover{
+        color:white;
+        font-size: 20px;
+        text-shadow: 4px 2px 6px floralwhite;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    #content{
+        padding-top:15em;
+        padding-right:1em;
+        padding-left:1em;
+    }
+    p.parcours{
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 20;
+        max-width: 40em;
+    }
+    ul.diplome{
+        list-style: none;
+        font-size: 25;
+    }
+    .diplome li{
+        margin-top: 0.8em;
+    }
+    #titre1{
+        font-size:25;
+    }
+    #current a{
+        color:#F56D02;
+        text-shadow: 4px 2px 6px #F56D02;
+        transition-duration: 0.5s;
+    }
+    table.langage{
+
+        display:fixed;
+        padding-top: 10em;
+        padding-left:1em;
+    }
+    .langage td{
+        padding-top: 3em;
+        padding-left: 3em;
+        text-align: center;
+    }
+    #lng{
+        font-weight: bold;
+        font-size:16px;
+    }
+    img#icon{
+        width:28px;
+        height:28px;
+    }
+    .competence{
+        margin-left:2em;
+        display:fixed;
+        min-width:100px;
+    }
+    .competence h3{
+        text-transform: uppercase;
+        text-decoration:underline;
+    }
+    h3#header{
+        margin-bottom:3em;
+    }
+    ul, ol{
+        list-style-type: none;
+    }
+    h4{
+        text-align: left;
+    }
+    .skill{
+        margin-top:1em;
+    }
+    .progress{
+        margin-top:0.5em;
+        border-radius: 7px;
+    }
+    .progress-bar{
+        background-color: #F56D02;
+    }
+    span.skill-level{
+       float:right;
+    }
+}
+@media screen and (min-width:560px){
+    footer{
+        text-align: center;
+        position:fixed; /* Permet un responsive design au footer */
+        left:0;
+        right:0;
+        bottom:0;
+    }
+    .competence{
+        margin-left:2em;
+        display:fixed;
+        width:500px;
+    }
+}
+@media screen and (min-width:750px){
+    @media screen and (max-width:1099px){
+        nav{
+            padding-top: 3em;
+            padding-left: 1em;
+            font-size: 20px;
+            position:absolute;
+            text-align: center;
+        }
+        nav li:hover{
+             color:white;
+             font-size: 30px;
+             text-shadow: 4px 2px 6px floralwhite;
+        }
+        table.langage{
+
+             display:fixed;
+             padding-top: 6em;
+             padding-left:10em;
+        }
+        .langage td{
+             padding-top: 3em;
+             padding-left: 3em;
+             text-align: center;
+        }
+        #lng{
+            font-weight: bold;
+            font-size:20px;
+        }
+        img#icon{
+            width:48px;
+            height:48px;
+        }
+}
+}
+
+
+    

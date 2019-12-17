@@ -1,0 +1,92 @@
+@font-face {
+    font-family: nasa;
+    src: url("../fonts/nasalization-rg.ttf");
+}
+#content{
+    padding-top: 5em;
+}
+.header{
+    height:50px;
+    background-color: #F56D02;
+    font-size: 20px;
+    font-family: nasa;
+    color:#FFF;
+    text-align: center;
+    border-radius: 4px;
+}
+#contact{
+    margin:0;
+    line-height:48px;
+}
+.header img{
+    width:20px;
+    height:20px;
+    display: inline-block;
+    line-height: 18px;
+    margin-left: 2em;
+}
+h3{
+    margin:0;
+}
+form{
+    margin-left: 5em;
+    position: relative;
+    width:700px;
+    height:400px;
+    background-color:#FAF9F9;
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.name{
+    padding-top:1.5em;
+}
+.mail{
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    font-size: 16px;
+    color:#000;
+    margin-left: 1.5em;
+    text-align: center;
+}
+#msg{
+   margin-top:4em;;
+}
+}
+input{
+    display: inline-block;
+    margin-top:3em;
+    font: 16px sans-serif;
+    width: 150px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+}
+textarea{
+    height:100px;
+    width:300px;
+    vertical-align: top;
+    box-sizing:border-box;
+    border: 1px solid grey;
+    margin-top:1.5em;
+    
+}
+button{
+    color:#FFF;
+    width:90px;
+    height:40px;
+    display: block;
+    margin: auto;
+    margin-top:2em;
+    background-color: #F56D02;
+    border-radius:4px;
+}
+#insta_icon{
+    width:68px;
+    height:68px;
+    float:right;
+    margin-bottom:5em;
+}
