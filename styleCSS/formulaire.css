@@ -2,9 +2,11 @@
     font-family: nasa;
     src: url("../fonts/nasalization-rg.ttf");
 }
+/* Redimensionnement de l'espacement du conteneur avec le body */
 #content{
     padding-top: 5em;
 }
+/* Entête du formulaire avec un fond orange */
 .header{
     height:50px;
     background-color: #F56D02;
@@ -18,6 +20,7 @@
     margin:0;
     line-height:48px;
 }
+/* Positionnement de l'image dans l'entête */
 .header img{
     width:20px;
     height:20px;
@@ -25,9 +28,11 @@
     line-height: 18px;
     margin-left: 2em;
 }
+/* Titre du header "Me Contacter" */
 h3{
     margin:0;
 }
+/* Corps du formulaire avec une largeur et hauteur prédéfini */
 form{
     margin-left: 5em;
     position: relative;
@@ -45,7 +50,7 @@ form{
 .mail{
     margin-top: 1em;
 }
-
+/* Texte du formulaire en noir */
 label{
     display: inline-block;
     font-size: 16px;
@@ -54,9 +59,10 @@ label{
     text-align: center;
 }
 #msg{
-   margin-top:4em;;
+   margin-top:4em;
 }
 }
+/* Permet l'interaction de l'utilisateur */
 input{
     display: inline-block;
     margin-top:3em;
@@ -65,6 +71,7 @@ input{
     box-sizing: border-box;
     border: 1px solid grey;
 }
+/* Permet d'entrez une chaine de caractères */ 
 textarea{
     height:100px;
     width:300px;
@@ -74,6 +81,7 @@ textarea{
     margin-top:1.5em;
     
 }
+/* Permet l'envoi du message au correspondant */
 button{
     color:#FFF;
     width:90px;
