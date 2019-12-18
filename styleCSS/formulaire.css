@@ -2,6 +2,9 @@
     font-family: nasa;
     src: url("../fonts/nasalization-rg.ttf");
 }
+h1{
+	margin-block-start:0;
+}
 /* Redimensionnement de l'espacement du conteneur avec le body */
 #content{
     padding-top: 5em;
